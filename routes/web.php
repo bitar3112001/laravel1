@@ -21,4 +21,7 @@ Route::get('/test', function () {
     return 'test11';
 });
 
+Route::get('/test22', function () {
+    return 'test11';
+});
 
