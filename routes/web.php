@@ -21,3 +21,6 @@ Route::get('/test', function () {
     return 'test';
 });
 
+Route::get('/ss',function(){
+    return 'hello';
+});
