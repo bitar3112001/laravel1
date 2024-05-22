@@ -18,9 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    return 'test';
+    return 'test11';
 });
 
-Route::get('/ss',function(){
-    return 'hello';
-});
+
