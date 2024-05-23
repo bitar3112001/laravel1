@@ -27,4 +27,9 @@ Route::get('/test', function () {
 
 });
 
+Route::get('/test4', function () {
+    return 'test114';
+
+});
+
 
