@@ -17,8 +17,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/test2', function () {
+    return 'test2';
+});
+
 Route::get('/test', function () {
     return 'test11';
+
+});
+
+Route::get('/test4', function () {
+    return 'test114';
+
 });
 
 Route::get('/test22', function () {
